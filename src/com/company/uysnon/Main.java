@@ -44,7 +44,7 @@ public class Main {
                 printAllPrinters();
                 int num = scanner.nextInt();
                 if (printers.get(num-1) == currentPrinter){
-                    System.out.println("Извини, нельзя удалить текущий принтер, чтобы удалить выбранный треубемый принтер, снимите с него статус \"текущий\" ");
+                    System.out.println("Извини, нельзя удалить текущий принтер, чтобы удалить выбранный принтер, сними с него статус \"текущий\" ");
                     continue;
                 }
                 printers.remove(num-1);

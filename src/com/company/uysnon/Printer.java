@@ -57,11 +57,6 @@ public class Printer {
         System.out.println(MESSAGE_SUCCESSFUL_PRINT);
     }
 
-    public Printer(int paperLists, String name, int capacity) {
-        this.paperLists = paperLists;
-        this.name = name;
-        this.capacity = capacity;
-    }
 
     public Printer(String name, int capacity) {
         this.name = name;
